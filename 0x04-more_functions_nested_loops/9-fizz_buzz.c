@@ -4,8 +4,10 @@
  *
  * Return: void
  */
+
 int main(void)
 {
+
 	int p = 100;
 	int i;
 
@@ -16,10 +18,12 @@ int main(void)
 		{
 			printf("fizzBuzz ");
 		}
+
 		else if (i % 3 == 0)
 		{
 			printf("fizz ");
 		}
+
 		else if (i % 5 == 0)
 		{
 			if (i < p)
@@ -27,6 +31,7 @@ int main(void)
 			else
 				printf("Buzz");
 		}
+
 		else
 		{
 			printf("%i ", i);
