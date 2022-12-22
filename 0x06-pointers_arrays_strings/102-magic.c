@@ -2,7 +2,7 @@
 
 /**
  * main - check code
- * Return: alway (success)
+ * Return: 0
  */
 
 int main(void)
